@@ -33,4 +33,4 @@ This course aims to equip students with the skills to design and implement Java 
 
 Each module includes practical assignments and a project that encourages students to apply what they've learned to develop solutions for real-world scenarios. Detailed instructions and resources for these projects are available in their respective directories within this repository.
 
-(c) CHAN Sophal
+&copy; CHAN Sophal
