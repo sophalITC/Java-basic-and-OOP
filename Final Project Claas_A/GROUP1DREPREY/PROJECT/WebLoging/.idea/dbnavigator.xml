@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DBNavigator.Project.DataEditorManager">
+    <record-view-column-sorting-type value="BY_INDEX" />
+    <value-preview-text-wrapping value="false" />
+    <value-preview-pinned value="false" />
+  </component>
+  <component name="DBNavigator.Project.DatabaseBrowserManager">
+    <autoscroll-to-editor value="false" />
+    <autoscroll-from-editor value="true" />
+    <show-object-properties value="true" />
+    <loaded-nodes />
+  </component>
+  <component name="DBNavigator.Project.DatabaseConsoleManager">
+    <connection id="1dd92b0e-9544-43f1-b08b-be3932d68eea">
+      <console name="Connection" type="STANDARD" schema="" session="Main" />
+    </connection>
+    <connection id="2a882f67-360f-4229-add5-0cae74666233">
+      <console name="Connection 1" type="STANDARD" schema="" session="Main"><![CDATA[INSERT INTO "STATUS" VALUES
+('72b11cec-0080-496a-a3a9-92494007befb', 'Imported lead'),
+('5ce3bbc1-6561-4c71-aa33-382692322b40', 'Not contacted'),
+('d6c3fe4e-e7c9-4961-b7fe-9350242992e9', 'Contacted'),
+('983b41a6-f1b6-4309-87df-5bfd2048392f', 'Customer'),
+('b501cfdc-ea0b-4659-b6d5-0449467a9ca0', 'Closed (lost)');
+INSERT INTO "COMPANY" VALUES
+('48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', 'Phillips Van Heusen Corp.'),
+('c58f8dd9-95dc-4d01-836b-4df6b37de527', 'Avaya Inc.'),
+('8cf87de5-574d-44ab-bf7f-25dec35cca73', 'Laboratory Corporation of America Holdings'),
+('2fb669ec-0659-49fb-af9f-e6f71ce8156f', 'AutoZone, Inc.'),
+('8db2356e-c5a4-461d-b231-6e13d4b48757', 'Linens ''n Things Inc.');   
+INSERT INTO "CONTACT" VALUES
+('51df6789-1b4f-4e32-b075-ef99e86ad9a5', 'eula.lane@jigrormo.ye', 'Eula', 'Lane', '8cf87de5-574d-44ab-bf7f-25dec35cca73', '72b11cec-0080-496a-a3a9-92494007befb'),
+('d3bbd40d-8394-4e1c-b516-7d7808a08534', 'barry.rodriquez@zun.mm', 'Barry', 'Rodriquez', 'c58f8dd9-95dc-4d01-836b-4df6b37de527', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('dd280051-9ec2-450d-992a-c55b33e45afe', 'eugenia.selvi@capfad.vn', 'Eugenia', 'Selvi', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', 'd6c3fe4e-e7c9-4961-b7fe-9350242992e9'),
+('6bc84da4-cc04-4289-895f-eb8bf50b45a1', 'alejandro.miles@dec.bn', 'Alejandro', 'Miles', '8db2356e-c5a4-461d-b231-6e13d4b48757', 'd6c3fe4e-e7c9-4961-b7fe-9350242992e9'),
+('99412746-4875-4693-8afc-a732e5629412', 'cora.tesi@bivo.yt', 'Cora', 'Tesi', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', '983b41a6-f1b6-4309-87df-5bfd2048392f'),
+('3f0fafe0-3db8-4b45-baa4-d493d30c019c', 'marguerite.ishii@judbilo.gn', 'Marguerite', 'Ishii', '8db2356e-c5a4-461d-b231-6e13d4b48757', '5ce3bbc1-6561-4c71-aa33-382692322b40'),
+('b1f32996-c3bf-42a9-a6d3-8262c4100ff6', 'mildred.jacobs@joraf.wf', 'Mildred', 'Jacobs', '8cf87de5-574d-44ab-bf7f-25dec35cca73', '72b11cec-0080-496a-a3a9-92494007befb'),
+('37f6329e-ff30-48ac-b3aa-aa4f2df0ba80', 'gene.goodman@kem.tl', 'Gene', 'Goodman', '8cf87de5-574d-44ab-bf7f-25dec35cca73', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('70a4c29c-f813-4818-8434-4ef374679ac1', 'lettie.bennett@odeter.bb', 'Lettie', 'Bennett', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', '72b11cec-0080-496a-a3a9-92494007befb'),
+('764f8256-217e-411c-9377-e1689c1ede54', 'mabel.leach@lisohuje.vi', 'Mabel', 'Leach', '8db2356e-c5a4-461d-b231-6e13d4b48757', '5ce3bbc1-6561-4c71-aa33-382692322b40'),
+('861d4ce6-e2f7-485d-bede-6462e42ac3c8', 'jordan.miccinesi@duod.gy', 'Jordan', 'Miccinesi', '8cf87de5-574d-44ab-bf7f-25dec35cca73', 'd6c3fe4e-e7c9-4961-b7fe-9350242992e9'),
+('cb2be9bc-129e-4218-bc28-802197dfbbf4', 'marie.parkes@nowufpus.ph', 'Marie', 'Parkes', 'c58f8dd9-95dc-4d01-836b-4df6b37de527', '72b11cec-0080-496a-a3a9-92494007befb'),
+('ac63a577-bea6-46f0-af38-424bd354397a', 'rose.gray@kagu.hr', 'Rose', 'Gray', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', '983b41a6-f1b6-4309-87df-5bfd2048392f'),
+('41a54093-0e0e-4cb9-99b0-d387f4417f84', 'garrett.stokes@fef.bg', 'Garrett', 'Stokes', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', 'd6c3fe4e-e7c9-4961-b7fe-9350242992e9'),
+('62ceb860-f08a-49fd-8e56-d87034ade042', 'barbara.matthieu@derwogi.jm', 'Barbara', 'Matthieu', 'c58f8dd9-95dc-4d01-836b-4df6b37de527', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('30250d77-f781-496c-824f-8ca0b35954fe', 'jean.rhodes@wehovuce.gu', 'Jean', 'Rhodes', 'c58f8dd9-95dc-4d01-836b-4df6b37de527', 'd6c3fe4e-e7c9-4961-b7fe-9350242992e9'),
+('a1d172ae-1516-4b91-a9b4-bf0c0068606e', 'jack.romoli@zamum.bw', 'Jack', 'Romoli', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', '983b41a6-f1b6-4309-87df-5bfd2048392f'),
+('15d87411-5e30-4f5e-928e-caf2205a785e', 'pearl.holden@dunebuh.cr', 'Pearl', 'Holden', '8cf87de5-574d-44ab-bf7f-25dec35cca73', '72b11cec-0080-496a-a3a9-92494007befb'),
+('af5d1ecd-1c2d-48ef-a3a4-8a0e923d0d75', 'belle.montero@repiwid.si', 'Belle', 'Montero', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('c67b6d2e-3f88-4724-acba-e7dec819d535', 'olive.molina@razuppa.ga', 'Olive', 'Molina', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', '5ce3bbc1-6561-4c71-aa33-382692322b40'),
+('2b836024-a9e1-43e3-be20-7a02d28975c8', 'minerva.todd@kulmenim.ad', 'Minerva', 'Todd', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', 'd6c3fe4e-e7c9-4961-b7fe-9350242992e9'),
+('c3698fbf-194f-41c8-8391-e890d5bd4c55', 'bobby.pearson@ib.kg', 'Bobby', 'Pearson', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', '72b11cec-0080-496a-a3a9-92494007befb'),
+('489e5de7-115f-46e4-b881-22aeea879cd7', 'larry.ciappi@ba.lk', 'Larry', 'Ciappi', '8db2356e-c5a4-461d-b231-6e13d4b48757', '5ce3bbc1-6561-4c71-aa33-382692322b40'),
+('128dde1f-46ad-4401-8901-6097a6e4dc37', 'ronnie.salucci@tohhij.lv', 'Ronnie', 'Salucci', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', '72b11cec-0080-496a-a3a9-92494007befb'),
+('14bd5c43-f277-4f17-a235-818d53e0ba54', 'walter.grossi@tuvo.sa', 'Walter', 'Grossi', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', '72b11cec-0080-496a-a3a9-92494007befb');      
+INSERT INTO "CONTACT" VALUES
+('66241aed-2891-4da5-8647-a75ed1723709', 'frances.koopmans@foga.tw', 'Frances', 'Koopmans', 'c58f8dd9-95dc-4d01-836b-4df6b37de527', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('95af9d1d-83a6-4a79-bb64-f9fea6b43835', 'frances.fujimoto@uswuzzub.jp', 'Frances', 'Fujimoto', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('c870120c-5f25-4a57-992b-d265cfc4c831', 'olivia.vidal@hivwerip.vc', 'Olivia', 'Vidal', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', '5ce3bbc1-6561-4c71-aa33-382692322b40'),
+('28cc1d7e-07ee-4708-8b88-acb66884c1a1', 'edna.henry@gugusu.rw', 'Edna', 'Henry', '8cf87de5-574d-44ab-bf7f-25dec35cca73', '983b41a6-f1b6-4309-87df-5bfd2048392f'),
+('0f2c88b4-4f8f-4986-b7de-a03445ca8a18', 'lydia.brun@zedekak.md', 'Lydia', 'Brun', 'c58f8dd9-95dc-4d01-836b-4df6b37de527', 'd6c3fe4e-e7c9-4961-b7fe-9350242992e9'),
+('ec8e18d7-fb99-493d-92d9-e6d31329fd74', 'jay.blake@ral.mk', 'Jay', 'Blake', '8db2356e-c5a4-461d-b231-6e13d4b48757', '983b41a6-f1b6-4309-87df-5bfd2048392f'),
+('0ea74725-7bee-4a86-9ab0-89ac3c51a172', 'isabel.serafini@turuhu.bh', 'Isabel', 'Serafini', '8db2356e-c5a4-461d-b231-6e13d4b48757', '72b11cec-0080-496a-a3a9-92494007befb'),
+('54852d85-c1f1-4cd6-bb8d-8631cf9013ee', 'rebecca.carter@omjo.et', 'Rebecca', 'Carter', '8cf87de5-574d-44ab-bf7f-25dec35cca73', '983b41a6-f1b6-4309-87df-5bfd2048392f'),
+('7fb70980-43e0-462c-b52a-ec6a0863ca87', 'maurice.fabbrini@rig.bh', 'Maurice', 'Fabbrini', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', 'd6c3fe4e-e7c9-4961-b7fe-9350242992e9'),
+('e27a9ccf-a06c-44e1-9191-38983048b0f7', 'ollie.turnbull@sicewap.org', 'Ollie', 'Turnbull', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', '72b11cec-0080-496a-a3a9-92494007befb'),
+('e313ccbd-be17-427a-be2f-f3a72f0be5bf', 'jerry.hopkins@fo.mh', 'Jerry', 'Hopkins', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('5607291e-9497-4292-a180-12b835998f19', 'nora.lyons@gegijap.na', 'Nora', 'Lyons', '8db2356e-c5a4-461d-b231-6e13d4b48757', '72b11cec-0080-496a-a3a9-92494007befb'),
+('1333d198-909d-4e39-8ee7-b20411501c4e', 'anne.weis@kuvesa.pe', 'Anne', 'Weis', 'c58f8dd9-95dc-4d01-836b-4df6b37de527', '983b41a6-f1b6-4309-87df-5bfd2048392f'),
+('62a844c6-38b0-4ff1-9abe-af84f84dd67d', 'louise.gauthier@lapahu.mt', 'Louise', 'Gauthier', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', '5ce3bbc1-6561-4c71-aa33-382692322b40'),
+('6e5b25a7-6bba-4ad1-946a-a69144eba12c', 'lloyd.fani@zev.ru', 'Lloyd', 'Fani', '8cf87de5-574d-44ab-bf7f-25dec35cca73', '72b11cec-0080-496a-a3a9-92494007befb'),
+('65209521-8a54-4e62-981c-62e450edc275', 'maud.dunn@nabeaga.ni', 'Maud', 'Dunn', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', '72b11cec-0080-496a-a3a9-92494007befb'),
+('813867b8-dd0a-4783-9e85-34b766f20e50', 'henry.gigli@kaot.ps', 'Henry', 'Gigli', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('569e4f4f-a1b1-435f-9a51-11574efc4b14', 'virgie.werner@tawuctuj.cf', 'Virgie', 'Werner', '8db2356e-c5a4-461d-b231-6e13d4b48757', '983b41a6-f1b6-4309-87df-5bfd2048392f'),
+('e586992e-ddb6-4b68-bb82-10eaee89f803', 'gregory.cozzi@eh.ru', 'Gregory', 'Cozzi', '8cf87de5-574d-44ab-bf7f-25dec35cca73', '5ce3bbc1-6561-4c71-aa33-382692322b40'),
+('9f021b62-a1f8-4795-b1e1-8ca09e163f1f', 'lucinda.gil@fajjusuz.kr', 'Lucinda', 'Gil', 'c58f8dd9-95dc-4d01-836b-4df6b37de527', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('0730184a-9336-4466-9db8-cffbab6bfd5e', 'gertrude.verbeek@pave.cc', 'Gertrude', 'Verbeek', '48767ba4-a9a2-4c0b-9ce9-cf0c53e8e45e', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('f32fd3b7-7656-4724-b881-e684fd9d944f', 'mattie.graham@ispaviw.gt', 'Mattie', 'Graham', 'c58f8dd9-95dc-4d01-836b-4df6b37de527', '5ce3bbc1-6561-4c71-aa33-382692322b40'),
+('e213341c-7ac6-4046-b6d6-9dd1291c9610', 'bryan.shaw@ha.ee', 'Bryan', 'Shaw', '2fb669ec-0659-49fb-af9f-e6f71ce8156f', '72b11cec-0080-496a-a3a9-92494007befb'),
+('78ad4f94-9c94-44de-83ca-611e92fbdd0a', 'essie.adams@iliat.cw', 'Essie', 'Adams', '8cf87de5-574d-44ab-bf7f-25dec35cca73', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0'),
+('c0bfcccc-2e4c-4915-b061-ea570062465f', 'gary.osborne@do.ga', 'Gary', 'Osborne', 'c58f8dd9-95dc-4d01-836b-4df6b37de527', 'b501cfdc-ea0b-4659-b6d5-0449467a9ca0');]]></console>
+    </connection>
+  </component>
+  <component name="DBNavigator.Project.DatabaseEditorStateManager">
+    <last-used-providers />
+  </component>
+  <component name="DBNavigator.Project.DatabaseFileManager">
+    <open-files />
+  </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
+  <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/flow-crm-tutorial/src/main/resources/data.sql" connection-id="virtual-sqlite-connection" session-id="MAIN" current-schema="" />
+    <mapping file-url="file://$PROJECT_DIR$/Connection 1.sql" connection-id="2a882f67-360f-4229-add5-0cae74666233" session-id="MAIN" current-schema="" />
+  </component>
+  <component name="DBNavigator.Project.MethodExecutionManager">
+    <method-browser />
+    <execution-history>
+      <group-entries value="true" />
+      <execution-inputs />
+    </execution-history>
+    <argument-values-cache />
+  </component>
+  <component name="DBNavigator.Project.ObjectQuickFilterManager">
+    <last-used-operator value="EQUAL" />
+    <filters />
+  </component>
+  <component name="DBNavigator.Project.Settings">
+    <connections>
+      <connection id="1dd92b0e-9544-43f1-b08b-be3932d68eea" active="true" signed="true">
+        <database>
+          <name value="Connection" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="9999.0" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="" />
+          <port value="" />
+          <database value="" />
+          <files>
+            <file path="sqlite.db" schema="main" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="true" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="false" />
+          <environment-type value="default" />
+          <connectivity-timeout value="10" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter>
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="2a882f67-360f-4229-add5-0cae74666233" active="true" signed="true">
+        <database>
+          <name value="Connection 1" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="9999.0" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="" />
+          <port value="" />
+          <database value="" />
+          <files>
+            <file path="sqlite.db" schema="main" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="true" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="false" />
+          <environment-type value="default" />
+          <connectivity-timeout value="10" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter>
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+    </connections>
+    <browser-settings>
+      <general>
+        <display-mode value="TABBED" />
+        <navigation-history-size value="100" />
+        <show-object-details value="false" />
+      </general>
+      <filters>
+        <object-type-filter>
+          <object-type name="SCHEMA" enabled="true" />
+          <object-type name="USER" enabled="true" />
+          <object-type name="ROLE" enabled="true" />
+          <object-type name="PRIVILEGE" enabled="true" />
+          <object-type name="CHARSET" enabled="true" />
+          <object-type name="TABLE" enabled="true" />
+          <object-type name="VIEW" enabled="true" />
+          <object-type name="MATERIALIZED_VIEW" enabled="true" />
+          <object-type name="NESTED_TABLE" enabled="true" />
+          <object-type name="COLUMN" enabled="true" />
+          <object-type name="INDEX" enabled="true" />
+          <object-type name="CONSTRAINT" enabled="true" />
+          <object-type name="DATASET_TRIGGER" enabled="true" />
+          <object-type name="DATABASE_TRIGGER" enabled="true" />
+          <object-type name="SYNONYM" enabled="true" />
+          <object-type name="SEQUENCE" enabled="true" />
+          <object-type name="PROCEDURE" enabled="true" />
+          <object-type name="FUNCTION" enabled="true" />
+          <object-type name="PACKAGE" enabled="true" />
+          <object-type name="TYPE" enabled="true" />
+          <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+          <object-type name="ARGUMENT" enabled="true" />
+          <object-type name="DIMENSION" enabled="true" />
+          <object-type name="CLUSTER" enabled="true" />
+          <object-type name="DBLINK" enabled="true" />
+        </object-type-filter>
+      </filters>
+      <sorting>
+        <object-type name="COLUMN" sorting-type="NAME" />
+        <object-type name="FUNCTION" sorting-type="NAME" />
+        <object-type name="PROCEDURE" sorting-type="NAME" />
+        <object-type name="ARGUMENT" sorting-type="POSITION" />
+        <object-type name="TYPE ATTRIBUTE" sorting-type="POSITION" />
+      </sorting>
+      <default-editors>
+        <object-type name="VIEW" editor-type="SELECTION" />
+        <object-type name="PACKAGE" editor-type="SELECTION" />
+        <object-type name="TYPE" editor-type="SELECTION" />
+      </default-editors>
+    </browser-settings>
+    <navigation-settings>
+      <lookup-filters>
+        <lookup-objects>
+          <object-type name="SCHEMA" enabled="true" />
+          <object-type name="USER" enabled="false" />
+          <object-type name="ROLE" enabled="false" />
+          <object-type name="PRIVILEGE" enabled="false" />
+          <object-type name="CHARSET" enabled="false" />
+          <object-type name="TABLE" enabled="true" />
+          <object-type name="VIEW" enabled="true" />
+          <object-type name="MATERIALIZED VIEW" enabled="true" />
+          <object-type name="INDEX" enabled="true" />
+          <object-type name="CONSTRAINT" enabled="true" />
+          <object-type name="DATASET TRIGGER" enabled="true" />
+          <object-type name="DATABASE TRIGGER" enabled="true" />
+          <object-type name="SYNONYM" enabled="false" />
+          <object-type name="SEQUENCE" enabled="true" />
+          <object-type name="PROCEDURE" enabled="true" />
+          <object-type name="FUNCTION" enabled="true" />
+          <object-type name="PACKAGE" enabled="true" />
+          <object-type name="TYPE" enabled="true" />
+          <object-type name="DIMENSION" enabled="false" />
+          <object-type name="CLUSTER" enabled="false" />
+          <object-type name="DBLINK" enabled="true" />
+        </lookup-objects>
+        <force-database-load value="false" />
+        <prompt-connection-selection value="true" />
+        <prompt-schema-selection value="true" />
+      </lookup-filters>
+    </navigation-settings>
+    <dataset-grid-settings>
+      <general>
+        <enable-zooming value="true" />
+        <enable-column-tooltip value="true" />
+      </general>
+      <sorting>
+        <nulls-first value="true" />
+        <max-sorting-columns value="4" />
+      </sorting>
+      <audit-columns>
+        <column-names value="" />
+        <visible value="true" />
+        <editable value="false" />
+      </audit-columns>
+    </dataset-grid-settings>
+    <dataset-editor-settings>
+      <text-editor-popup>
+        <active value="false" />
+        <active-if-empty value="false" />
+        <data-length-threshold value="100" />
+        <popup-delay value="1000" />
+      </text-editor-popup>
+      <values-actions-popup>
+        <show-popup-button value="true" />
+        <element-count-threshold value="1000" />
+        <data-length-threshold value="250" />
+      </values-actions-popup>
+      <general>
+        <fetch-block-size value="100" />
+        <fetch-timeout value="30" />
+        <trim-whitespaces value="true" />
+        <convert-empty-strings-to-null value="true" />
+        <select-content-on-cell-edit value="true" />
+        <large-value-preview-active value="true" />
+      </general>
+      <filters>
+        <prompt-filter-dialog value="true" />
+        <default-filter-type value="BASIC" />
+      </filters>
+      <qualified-text-editor text-length-threshold="300">
+        <content-types>
+          <content-type name="Text" enabled="true" />
+          <content-type name="Properties" enabled="true" />
+          <content-type name="XML" enabled="true" />
+          <content-type name="DTD" enabled="true" />
+          <content-type name="HTML" enabled="true" />
+          <content-type name="XHTML" enabled="true" />
+          <content-type name="Java" enabled="true" />
+          <content-type name="SQL" enabled="true" />
+          <content-type name="PL/SQL" enabled="true" />
+          <content-type name="JSON" enabled="true" />
+          <content-type name="JSON5" enabled="true" />
+          <content-type name="Groovy" enabled="true" />
+          <content-type name="AIDL" enabled="true" />
+          <content-type name="YAML" enabled="true" />
+          <content-type name="Manifest" enabled="true" />
+        </content-types>
+      </qualified-text-editor>
+      <record-navigation>
+        <navigation-target value="VIEWER" />
+      </record-navigation>
+    </dataset-editor-settings>
+    <code-editor-settings>
+      <general>
+        <show-object-navigation-gutter value="false" />
+        <show-spec-declaration-navigation-gutter value="true" />
+        <enable-spellchecking value="true" />
+        <enable-reference-spellchecking value="false" />
+      </general>
+      <confirmations>
+        <save-changes value="false" />
+        <revert-changes value="true" />
+      </confirmations>
+    </code-editor-settings>
+    <code-completion-settings>
+      <filters>
+        <basic-filter>
+          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
+          <filter-element type="RESERVED_WORD" id="function" selected="true" />
+          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
+          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
+          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
+          <filter-element type="OBJECT" id="schema" selected="true" />
+          <filter-element type="OBJECT" id="role" selected="true" />
+          <filter-element type="OBJECT" id="user" selected="true" />
+          <filter-element type="OBJECT" id="privilege" selected="true" />
+          <user-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="false" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </user-schema>
+          <public-schema>
+            <filter-element type="OBJECT" id="table" selected="false" />
+            <filter-element type="OBJECT" id="view" selected="false" />
+            <filter-element type="OBJECT" id="materialized view" selected="false" />
+            <filter-element type="OBJECT" id="index" selected="false" />
+            <filter-element type="OBJECT" id="constraint" selected="false" />
+            <filter-element type="OBJECT" id="trigger" selected="false" />
+            <filter-element type="OBJECT" id="synonym" selected="false" />
+            <filter-element type="OBJECT" id="sequence" selected="false" />
+            <filter-element type="OBJECT" id="procedure" selected="false" />
+            <filter-element type="OBJECT" id="function" selected="false" />
+            <filter-element type="OBJECT" id="package" selected="false" />
+            <filter-element type="OBJECT" id="type" selected="false" />
+            <filter-element type="OBJECT" id="dimension" selected="false" />
+            <filter-element type="OBJECT" id="cluster" selected="false" />
+            <filter-element type="OBJECT" id="dblink" selected="false" />
+          </public-schema>
+          <any-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </any-schema>
+        </basic-filter>
+        <extended-filter>
+          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
+          <filter-element type="RESERVED_WORD" id="function" selected="true" />
+          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
+          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
+          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
+          <filter-element type="OBJECT" id="schema" selected="true" />
+          <filter-element type="OBJECT" id="user" selected="true" />
+          <filter-element type="OBJECT" id="role" selected="true" />
+          <filter-element type="OBJECT" id="privilege" selected="true" />
+          <user-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </user-schema>
+          <public-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </public-schema>
+          <any-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </any-schema>
+        </extended-filter>
+      </filters>
+      <sorting enabled="true">
+        <sorting-element type="RESERVED_WORD" id="keyword" />
+        <sorting-element type="RESERVED_WORD" id="datatype" />
+        <sorting-element type="OBJECT" id="column" />
+        <sorting-element type="OBJECT" id="table" />
+        <sorting-element type="OBJECT" id="view" />
+        <sorting-element type="OBJECT" id="materialized view" />
+        <sorting-element type="OBJECT" id="index" />
+        <sorting-element type="OBJECT" id="constraint" />
+        <sorting-element type="OBJECT" id="trigger" />
+        <sorting-element type="OBJECT" id="synonym" />
+        <sorting-element type="OBJECT" id="sequence" />
+        <sorting-element type="OBJECT" id="procedure" />
+        <sorting-element type="OBJECT" id="function" />
+        <sorting-element type="OBJECT" id="package" />
+        <sorting-element type="OBJECT" id="type" />
+        <sorting-element type="OBJECT" id="dimension" />
+        <sorting-element type="OBJECT" id="cluster" />
+        <sorting-element type="OBJECT" id="dblink" />
+        <sorting-element type="OBJECT" id="schema" />
+        <sorting-element type="OBJECT" id="role" />
+        <sorting-element type="OBJECT" id="user" />
+        <sorting-element type="RESERVED_WORD" id="function" />
+        <sorting-element type="RESERVED_WORD" id="parameter" />
+      </sorting>
+      <format>
+        <enforce-code-style-case value="true" />
+      </format>
+    </code-completion-settings>
+    <execution-engine-settings>
+      <statement-execution>
+        <fetch-block-size value="100" />
+        <execution-timeout value="20" />
+        <debug-execution-timeout value="600" />
+        <focus-result value="false" />
+        <prompt-execution value="false" />
+      </statement-execution>
+      <script-execution>
+        <command-line-interfaces />
+        <execution-timeout value="300" />
+      </script-execution>
+      <method-execution>
+        <execution-timeout value="30" />
+        <debug-execution-timeout value="600" />
+        <parameter-history-size value="10" />
+      </method-execution>
+    </execution-engine-settings>
+    <operation-settings>
+      <transactions>
+        <uncommitted-changes>
+          <on-project-close value="ASK" />
+          <on-disconnect value="ASK" />
+          <on-autocommit-toggle value="ASK" />
+        </uncommitted-changes>
+        <multiple-uncommitted-changes>
+          <on-commit value="ASK" />
+          <on-rollback value="ASK" />
+        </multiple-uncommitted-changes>
+      </transactions>
+      <session-browser>
+        <disconnect-session value="ASK" />
+        <kill-session value="ASK" />
+        <reload-on-filter-change value="false" />
+      </session-browser>
+      <compiler>
+        <compile-type value="KEEP" />
+        <compile-dependencies value="ASK" />
+        <always-show-controls value="false" />
+      </compiler>
+      <debugger>
+        <debugger-type value="ASK" />
+        <use-generic-runners value="true" />
+      </debugger>
+    </operation-settings>
+    <ddl-file-settings>
+      <extensions>
+        <mapping file-type-id="VIEW" extensions="vw" />
+        <mapping file-type-id="TRIGGER" extensions="trg" />
+        <mapping file-type-id="PROCEDURE" extensions="prc" />
+        <mapping file-type-id="FUNCTION" extensions="fnc" />
+        <mapping file-type-id="PACKAGE" extensions="pkg" />
+        <mapping file-type-id="PACKAGE_SPEC" extensions="pks" />
+        <mapping file-type-id="PACKAGE_BODY" extensions="pkb" />
+        <mapping file-type-id="TYPE" extensions="tpe" />
+        <mapping file-type-id="TYPE_SPEC" extensions="tps" />
+        <mapping file-type-id="TYPE_BODY" extensions="tpb" />
+      </extensions>
+      <general>
+        <lookup-ddl-files value="true" />
+        <create-ddl-files value="false" />
+        <synchronize-ddl-files value="true" />
+        <use-qualified-names value="false" />
+        <make-scripts-rerunnable value="true" />
+      </general>
+    </ddl-file-settings>
+    <general-settings>
+      <regional-settings>
+        <date-format value="MEDIUM" />
+        <number-format value="UNGROUPED" />
+        <locale value="SYSTEM_DEFAULT" />
+        <use-custom-formats value="false" />
+      </regional-settings>
+      <environment>
+        <environment-types>
+          <environment-type id="development" name="Development" description="Development environment" color="-2430209/-12296320" readonly-code="false" readonly-data="false" />
+          <environment-type id="integration" name="Integration" description="Integration environment" color="-2621494/-12163514" readonly-code="true" readonly-data="false" />
+          <environment-type id="production" name="Production" description="Productive environment" color="-11574/-10271420" readonly-code="true" readonly-data="true" />
+          <environment-type id="other" name="Other" description="" color="-1576/-10724543" readonly-code="false" readonly-data="false" />
+        </environment-types>
+        <visibility-settings>
+          <connection-tabs value="true" />
+          <dialog-headers value="true" />
+          <object-editor-tabs value="true" />
+          <script-editor-tabs value="false" />
+          <execution-result-tabs value="true" />
+        </visibility-settings>
+      </environment>
+    </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
+  </component>
+</project>

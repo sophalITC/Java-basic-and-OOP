@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="userPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" styleClass="primary-color" stylesheets="@application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminSceneController">
+   <children>
+      <Pane layoutY="-5.0" prefHeight="511.0" prefWidth="259.0" styleClass="secondary-color" stylesheets="@application.css">
+         <children>
+            <Button fx:id="labRoomBtn" layoutX="32.0" layoutY="230.0" mnemonicParsing="false" onAction="#labRoomBtn" prefHeight="34.0" prefWidth="196.0" text="Lab Room">
+               <font>
+                  <Font name="Bell MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="studyRoombtn" layoutX="32.0" layoutY="280.0" mnemonicParsing="false" onAction="#studyRoomBtn" prefHeight="34.0" prefWidth="196.0" text="Study Room">
+               <font>
+                  <Font name="Bell MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="32.0" layoutY="335.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="196.0" text="User Informations">
+               <font>
+                  <Font name="Bell MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="logoutButton" layoutX="108.0" layoutY="400.0" mnemonicParsing="false" onAction="#logout" styleClass="round-red" stylesheets="@userDesign.css" text="Quit" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="185.0" fitWidth="179.0" layoutX="40.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@adminIcon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <TextField fx:id="searchTextField" layoutX="313.0" layoutY="83.0" prefHeight="26.0" prefWidth="548.0" promptText="Enter to Search" />
+      <TableView fx:id="labView" layoutX="269.0" layoutY="171.0" prefHeight="314.0" prefWidth="534.0">
+        <columns>
+          <TableColumn fx:id="labBuilding" prefWidth="75.0" text="Building" />
+          <TableColumn fx:id="labDay" prefWidth="108.0" text="Day" />
+            <TableColumn fx:id="labTime" prefWidth="91.20002746582031" text="Time" />
+            <TableColumn fx:id="labRoom" prefWidth="86.39999999999998" text="Room" />
+            <TableColumn fx:id="labGroup" prefWidth="86.39999999999998" text="Group" />
+            <TableColumn fx:id="labAvailable" prefWidth="86.39999999999998" text="Available" />
+        </columns>
+      </TableView>
+      <Button fx:id="deleteButton" layoutX="817.0" layoutY="177.0" mnemonicParsing="false" onAction="#deleteBtn" styleClass="buton-red" stylesheets="@application.css" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="13.0" />
+         </font>
+      </Button>
+      <Text fontSmoothingType="LCD" layoutX="269.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Building">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font>
+      </Text>
+      <Label fx:id="userLabel" alignment="CENTER" layoutX="259.0" layoutY="16.0" prefHeight="52.0" prefWidth="598.0" stylesheets="@userDesign.css" wrapText="true">
+         <font>
+            <Font name="Bell MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Text fontSmoothingType="LCD" layoutX="349.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Day">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="444.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="531.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="616.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="701.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font>
+      </Text>
+      <Button fx:id="addButton" layoutX="817.0" layoutY="136.0" mnemonicParsing="false" onAction="#addBtn" styleClass="buton-green" stylesheets="@application.css" text="Add" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="updateButton" layoutX="819.0" layoutY="218.0" mnemonicParsing="false" onAction="#modifyBtn" styleClass="buton-orange" stylesheets="@application.css" text="Update" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="buildingField" layoutX="265.0" layoutY="136.0" onMouseClicked="#selectData" prefHeight="26.0" prefWidth="66.0" />
+      <TextField fx:id="dayField" layoutX="344.0" layoutY="135.0" onMouseClicked="#selectData" prefHeight="26.0" prefWidth="84.0" />
+      <TextField fx:id="timeField" layoutX="444.0" layoutY="136.0" onMouseClicked="#selectData" prefHeight="26.0" prefWidth="74.0" />
+      <TextField fx:id="roomField" layoutX="528.0" layoutY="136.0" onMouseClicked="#selectData" prefHeight="26.0" prefWidth="74.0" />
+      <TextField fx:id="groupField" layoutX="615.0" layoutY="136.0" onMouseClicked="#selectData" prefHeight="26.0" prefWidth="74.0" />
+      <TextField fx:id="availableField" layoutX="701.0" layoutY="136.0" onMouseClicked="#selectData" prefHeight="26.0" prefWidth="74.0" />
+      <Button fx:id="bookButton" layoutX="821.0" layoutY="263.0" mnemonicParsing="false" onAction="#bookBtn" styleClass="buton-color" stylesheets="@application.css" text="Book" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

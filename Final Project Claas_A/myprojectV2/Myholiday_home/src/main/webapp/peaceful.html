@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peaceful Resort</title>
+        <link rel="stylesheet" href="css/bootstrap.css"></link>
+        <link rel="stylesheet" href="resortSytle.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    </head>
+    <bod>
+        <nav>
+            <div class="icon">Peaceful Resort</div>
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mondulkiri.html">Previous</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ol>
+        </nav> 
+
+        <div class="container">
+                <!-- Slider main container -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+            <!-- Slides -->
+                    <div class="swiper-slide"><img src="peaceful_f1.jpg"></div>
+                    <div class="swiper-slide"><img src="peaceful_f2.jpg"></div>
+                    <div class="swiper-slide"><img src="peaceful_f3.jpg"></div>
+                </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            
+            const swiper = new Swiper('.swiper', {
+                autoplay:{
+                    delay:2000,
+                    disableOnInteraction: false,
+                },
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            
+            });
+        
+        </script>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.8569919227375!2d104.888535!3d11.562108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e9e2c4fd9e9e9bb!2zMTHCsDMzJzQzLjYiTiAxMDTCsDUzJzE4LjciRQ!5e0!3m2!1sen!2skh!4v1674290201690!5m2!1sen!2skh" 
+       width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    	 <button class="btn btn-outline-success d-block"><a href="peacefuldata">See more...</a></button>
+    </bod>
+</html>

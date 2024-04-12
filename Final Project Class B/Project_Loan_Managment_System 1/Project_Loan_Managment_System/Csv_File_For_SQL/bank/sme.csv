@@ -1,0 +1,79 @@
+"No","Bank","Loan_Type","Loan_Amount","Loan_Term","Interest_Rate","Repayment_Method","Condition","Document"
+1,"Phillip Bank","SME ","Negotable","Flexible","8-12 %","Flexible"," *A profil with no criminal record
+*Minimum of 3 years of business operation","*Real estate property 
+document"
+2,"Prasac Bank","SME ","500000","120 months","6.48%","Flexible","*Permanet resident
+Good record and be reliable","Family book
+ID card
+Passport
+Land certificate or term loan deposit certification"
+3,"ACLEDA Bank","SME ","500000","72 months","7.5-18%","Flexible","*Commit to pay bank to
+ACLEDA Bank","ID card
+Family book
+Residence book"
+4,"Chip Mong Bank","SME ","1 million","24 months","8%","Flexible","*Property accepted by 
+Bank's policy","*Copy of updated business 
+patent tax or legal applicable"
+5,"ABA Bank","SME ","200000","120 months","Negotiable","Flexible","*Real estate properties with 
+strong or soft Title Deed 
+*No adverse repayment history","*Bussiness registration 
+certificate"
+6,"FTB Bank","SME ","10000","120 months","Compitative","Flexible","*Required collateral
+(land or house)","*Certificate of incorporation
+*Business licence and Patent"
+7,"Cambodian Public Bank","SME ","10000","24-60 months","Compitative","Flexible","*Borrower's business must be in operatios  
+Profitable for at least 2 years","*Certificate of Tax "
+8,"SME Bank","SME ","300000","84 months","6-7%","Flexible","Both registered and 
+unregistered SMEs","*Bussiness registration 
+certificate"
+9,"PPC Bank","SME ","10000","72 months","12.96%","Negotiable","To hava a business with good status
+Legal profitability","*Legal staus of Business 
+certificate"
+10,"CANADIA Bank","SME ","5000","24 months","Compitative","Flexible","*Required collateral","*Financial statement"
+11,"BIDC Bank","SME ","Negotable","Flexible","Negotiable","Negotiable","*Hard and soft title deed
+ is acceptable","*Business licence"
+12,"CAMBODIA POST Bank Plc","SME ","1 million","120 months","2%","Negotiable","Property value up to 75%","*Lastest Financial statement"
+13,"Vattanac Bank","SME ","20000","60 months","Compitative","Overdraft","*Required collateral","*Copy of applicant's  ID
+*Lastest Financial statement
+*Lastest 6 months bank statement"
+14,"LOLC Plc BANK","SME ","10001","Flexible","Flexible","Flexible","*Hava a legal business and regular income
+*Have a good record capacity to repay the loan","*ID card
+*Family book
+*Birth certification"
+15,"Hattha Bank","SME ","200000","84 months","0.88%","Flexible","*Reayment mode based on
+ customer cash flow","*Bussiness registration certificate"
+16,"AMK Bank","SME ","20001","1-108 months","1-1.3%","Flexible","*Living at a permanent address 
+as certified by  local authorities","*National identification document
+*Photocopy of Title Deep of property"
+17,"WOORI Bank","SME ","No Data","120 months","Compitative","Flexible","*Fixed term deposit with 
+WOORI Bank","*Legal status of Business 
+certificate "
+18,"CAMMA Microfinance Limited","SME ","500000","84 months","6.5-7.5%","Flexible","*Soft or hard title as collateral
+ for hypotheque","*Letter confirmed by local authority
+*Other document to support an incomes and expenses of business or family"
+19,"PRIME MR Bank","SME ","300000","60 months","Resonable","Flexible","*Required Collateral ","*Certificate of Tax "
+20,"Hong Loeng Bank","SME ","10 million","84 months","2.2%","Flexible","*Business registered lagally
+*Annual Sales Turnover of RM 500,000 and above","*Business registation document
+*Last 6 months Bank  Statement"
+21,"Prince Bank","SME ","10000","48 months","7%","Flexible","*Soft or hard title dees and
+ even third-party guarantor 
+are accepted","*Certificate of Incorpporation from Ministry of Commerce
+*Identification document of the Authorized Signatories and Board of Diredtor"
+22,"ARDB Bank","SME ","5000","84 months","5.5%","Flexible","*Land title as collateral","*Hard Title or Soft which recognized by Law or *Certificate of Deposit
+Bussiness plan"
+23,"ALPHA Commercial Bank PLC","SME ","50000","180 months","Negotiable","Flexible","*Collateral property with Hard *Title Deep is required
+*Potential business and stable profitability","*Certificate of incorporation,Patent and VAT
+*Financial statement"
+24,"BIC Bank","SME ","10000","96 months","Compitative low","Flexible","*Immovable property
+(land or house)","*Legal status of Business certificate 
+*Certificate of Tax *Registration(VAT)"
+25,"J Trust Bank","SME ","600000","96 months","6.5%","Flexible","Grace Period: Up to 42 months","*Business registation
+ document"
+26,"Maybank 2u Cambodia","SME ","200000","84 months","7%","Flexible","*No lock-in period
+*No pprocessing fee","*Business registation
+ document"
+27,"Credit Gurantee Corporation of Cambodia","SME ","100000","48 months","No Data","Flexible","*Required collateral","*ID card"
+28,"Shinhan Bank","SME ","300000","120 months","6.5%","Flexible","*Have a permanent address
+ in Cambodia","*Have income with proof document
+*Valid ID
+*Passport"

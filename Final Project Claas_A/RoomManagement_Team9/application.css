@@ -1,0 +1,36 @@
+.primary-color{
+    -fx-background-color: #D5F5E3;
+}
+
+
+.secondary-color{
+    -fx-background-color: #3cac96;
+}
+
+.buton-color{
+    -fx-background-color: #03A9F4
+}
+
+.buton-color1{
+    -fx-background-color: #ffffff
+}
+
+.buton-red{
+    -fx-background-color: #800080
+}
+
+.buton-green{
+    -fx-background-color: #32de84
+}
+
+.buton-orange{
+    -fx-background-color: #E25822
+}
+
+.label{
+    -fx-font-size: 13;
+    -fx-weight: bold;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill:"red";
+    -fx-alignment: center;
+}

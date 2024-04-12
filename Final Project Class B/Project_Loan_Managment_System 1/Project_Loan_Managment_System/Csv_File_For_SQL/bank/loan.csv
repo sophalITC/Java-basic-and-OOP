@@ -1,0 +1,4 @@
+"Citizen_ID","Full_Name","Date_of_Birth","Gender","Civil_Status","Home_Ownership","Email","Tel","Emplyer_Type","Bussiness_Type","Bussiness_Name","Loan_Amount","Loan_Term","Interest_Rate","Repayment_Method","Loan_Purpose"
+1,"Phal Davyyy","30/07/2000","Female","Married","SME","davy@gmail.com","0987777887","Employed","Single Proprietorship","Zanda","10000$","comboBoxChanged","5%","EMI","Bussiness"
+2,"Kim Emma","04/09/1998","Female","Single","SME","emma@gmail.com","087788888","Self-Employed","Partnership","Gucci","20000$ to 50000$","10 Years","5%","Flexible","Bussiness"
+3,"Jo Alex","10/04/1995","Male","Married","SME","joalex@gmail.com","098776666","Self-Employed","Single Proprietorship","Louis Vuitton","50000$ to 100000$","10 Years","5%","EMI","Bussiness"

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientsSceneController">
+   <children>
+      <Label layoutX="38.0" layoutY="33.0" prefHeight="25.0" prefWidth="89.0" text="Client list">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TableView fx:id="clientList" layoutX="36.0" layoutY="69.0" prefHeight="489.0" prefWidth="667.0">
+          <placeholder>
+              <Label text="Client not found" />
+          </placeholder>
+        <columns>
+          <TableColumn fx:id="clientId" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="clientUsername" prefWidth="75.0" text="Username" />
+            <TableColumn fx:id="clientEmail" prefWidth="147.0" text="Email" />
+            <TableColumn fx:id="clientFname" prefWidth="115.0" text="First name" />
+            <TableColumn fx:id="clientLname" prefWidth="106.0" text="Last name" />
+            <TableColumn fx:id="clientDob" prefWidth="106.0" text="Dob" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAddNewClient" layoutX="568.0" layoutY="33.0" mnemonicParsing="false" onAction="#onAddNewClient" prefHeight="25.0" prefWidth="109.0" text="Add new Client" />
+      <Button fx:id="btnRefresh" layoutX="687.0" layoutY="33.0" mnemonicParsing="false" onAction="#onRefresh" prefHeight="25.0" prefWidth="78.0" text="Refresh" />
+      <TextField fx:id="textSearchClient" layoutX="277.0" layoutY="33.0" prefHeight="25.0" prefWidth="173.0" promptText="example@gmail.com" />
+      <Button layoutX="450.0" layoutY="33.0" mnemonicParsing="false" onAction="#searchClientActions" text="search" />
+      <Button fx:id="btnEdit" layoutX="725.0" layoutY="88.0" mnemonicParsing="false" onAction="#onEditAction" prefHeight="25.0" prefWidth="61.0" text="Edit" />
+      <Button fx:id="btnDelete" layoutX="725.0" layoutY="128.0" mnemonicParsing="false" onAction="#onDeleteClient" prefHeight="25.0" prefWidth="61.0" text="Delete" />
+      <Button layoutX="12.0" layoutY="567.0" mnemonicParsing="false" onAction="#goBackToSplitWay" text="Go Back" />
+   </children>
+</Pane>

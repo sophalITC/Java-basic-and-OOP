@@ -1,0 +1,43 @@
+##Below is the line of code that you have to change:
+
++For AdminDashboardForm:
+
+-Line 247
+-Line 289
+-Line 357
+-Line 385
+-Line 418
+-Line 452
+-Line 486
+-Line 527
+-Line 568
+-Line 591
+-Line 623
+-Line 643
+
++ For SignUpForm
+
+-Line 104
+
++ For SmeDashboardForm
+
+-Line 276
+-Line 339
+-Line 366
+-Line 432
+-Line 487
+-Line 566
+
++ For StudentDashboardForm
+
+-Line 285
+-Line 348
+-Line 375
+-Line 441
+-Line 494
+-Line 572
+
++ For UserLoginForm
+
+-Line 76
+-Line 124
